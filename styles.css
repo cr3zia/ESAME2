@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    max-width: 100%;
+}
+
+body {
+    font-family: avenir;
+    font-style: normal;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12pt;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+#logo{
+ padding: 0px;
+ size: 20%;
+}
+
+.home a{
+    color: #FF611E;
+}
+
+.home {
+    text-decoration-line: underline;
+    color: #FF611E;
+}
+
+nav a {
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 40px;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 30pt;
+
+}
+
+
+.rettangolo {
+    background-color:#FF611E;
+    height: 50%;
+    font-size: 14pt;
+    padding: 100px; 
+    padding-top: 100px;
+}
+.rettangolo a {
+    padding: 0px 10px;
+    border: solid 2px white;
+}
+.rettangolo h1{
+    align-items: center;
+    font-family:Dela Gothic One ;
+    margin-bottom: 20pt;
+    font-size: 20pt;
+}
+
+.contenitore {
+    display: flex; 
+    align-items: center;
+}
+
+.body {
+    
+}
+
+.colonnadestra {
+    width: 50%;
+}
+.colonnadestra img {
+    margin: 150px 0px 0px 65px;
+}
+
+.colonnasinistra {
+    width: 45%;
+}
+.lostudio h2 {
+    font-family:Dela Gothic One ;
+    font-size: 18pt;
+}
+.lostudio  {
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 40px;
+    font-size: 16pt;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    color: white;
+    padding-top: 200px;
+}
+
+.grid p {
+    margin: 30px;
+    font-family:Dela Gothic One ;
+    font-size: large;
+    text-align: center;
+}
+.grid a {
+    text-decoration: none;
+}
+
+.cosaoffriamo h2 {
+    color: #FF611E;
+    font-family:Dela Gothic One ;
+    font-size: 18pt;
+}
+.cosaoffriamo {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    padding-right: 20%;
+    padding-left: 20%;
+    font-size: 16pt;
+}
+
+
+section h1, section h2 {
+    color: white;
+}
+
+section p {
+    color:white;
+
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 20%;
+    padding: 20pt;
+    font-size: 12pt;
+}
+
+footer p {
+text-align: center;
+font-size: 8pt;
+}
+
+
+
+@media  (max-width: 600px) { 
+    .colonnadestra {
+        width: 100%;
+    }
+    
+    .colonnasinistra {
+        width: 100%;
+    
+    }
+    .colonnadestra img {
+        margin: 0px;
+    }
+}
+
